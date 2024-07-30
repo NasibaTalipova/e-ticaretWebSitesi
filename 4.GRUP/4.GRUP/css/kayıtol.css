@@ -1,0 +1,79 @@
+/* Kayıt Olma Formu CSS */
+.form3{
+    width: 500px;
+    padding: 30px;
+    background-color:   #ff1ac9  ;
+    text-align: left;
+    position: absolute;
+    top:70%;
+    left:45%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    margin-top: 15px;
+    height: 650px;
+    border-radius: 10px;
+}
+.form3 label {
+    margin-top:5px;
+    text-size-adjust: 5px;
+    font-weight: bold;
+}
+.form3 input{
+    background-color: white;
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: solid 1px ;
+    box-sizing: border-box;
+}
+.form3 h1{
+    margin-top: 100px;
+    color:  #66004d;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: dashed;
+    text-size-adjust: 7px;
+    font-weight: bold;
+
+}
+.input-type, .input-password {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.input-submit {
+    background-color: #66004d ;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20rem;
+    transition: 0.8s;   
+}
+.input-submit:hover {
+    transform: scale(0.96);
+    background-color:  #66004d ;
+}
+.form3 p{
+    text-decoration:none;    
+    color: black;
+    float: center;
+}
+.form3  a {
+    text-decoration:underline;
+    color: #fbfbfb;
+    transition: 0.8s;
+    cursor:pointer;
+    color:  #66004d ;
+    float:center;
+}
+#uyarilar {
+    color: red;
+    font-weight: bold;
+}

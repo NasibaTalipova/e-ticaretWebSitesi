@@ -1,0 +1,96 @@
+/*giriş yap css*/
+
+
+#GirişYap2 {
+    height: 650px;
+    width: 500px;
+    padding: 35px;
+    background-color:  #ff1ac9  ;
+    text-align: left;
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    margin-top: auto;
+    border-radius: 20px;
+
+}
+#GirişYap2 h1{
+    margin-top: 100px;
+    color:  #66004d;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: dashed;
+    text-size-adjust: 7px;
+    font-weight: bold;
+
+}
+#GirişYap2 label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#GirişYap2 input{
+     background-color: white;
+    border: solid 1px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.text3, .password3{
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.submit2{
+    width: 100%;
+    padding: 20px 30px;
+    margin-top: 15px;
+    background-color: #66004d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.submit2:hover {
+    transform: scale(0.96);
+    background-color:#ffffff    ;
+}
+#GirişYap2 p{
+    text-decoration:none;
+    color: black;
+    float:left;
+}
+#GirişYap2  a {
+    text-decoration:underline;
+    color: #fbfbfb;
+    transition: 0.8s;
+    ;
+    cursor:pointer;
+    color:  #66004d ;
+    float:right;
+}
+#GirişYap2 a1 {
+    text-decoration:underline;
+    color: #fbfbfb;
+    transition: 0.8s;
+    margin-top: 17px;
+    cursor:pointer;
+    color:  #66004d ;
+    float:right;
+}
+#uyarilar {
+    color: red;
+    font-weight: bold;
+}

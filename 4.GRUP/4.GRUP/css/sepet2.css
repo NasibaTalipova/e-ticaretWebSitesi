@@ -1,0 +1,75 @@
+.container1{
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    padding: auto;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color:  #ffe6f9 ;
+  }
+  
+  .table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #fff;
+  }
+  
+  .color-danger {
+    color: #66004d ;
+  }
+  
+  .item-count-input {
+    width: 50px;
+    text-align: center!important;
+    margin: 0 auto;
+  }
+
+  .container1 .table-striped th .text {
+    width: 120px;
+  }
+
+
+/* td, th {
+  vertical-align: middle;
+} */
+
+.container1 .table-striped th .text-right {
+    width: 250px;
+  }
+
+  .cart-icon{
+    font-size:16px;
+
+}
+.cart-count{
+    position: relative;
+    background-color: #fff;
+    font-size: 25px;
+    top:-10px;
+    left:-10px;
+
+}
+.color-danger {
+    color: #cac6c9 ;
+
+}
+.item_count-input{
+    width: 50px;
+    text-align: center;
+}
+
+td{
+    vertical-align: middle!important;
+
+}
+
+tfoot th{
+    padding:20px;
+    background-color: #dfdfdf;
+}
+
+.color_danger{
+  color:#66004d
+}

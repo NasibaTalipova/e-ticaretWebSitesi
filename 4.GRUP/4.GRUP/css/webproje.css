@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+
+/* Base htmle codes*/
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: var(--black-color);
+}
+
+html::-webkit-scrollbar-thumb{
+    border-radius: 3rem;
+    background-color:#ffe6f9;
+}
+
+.header{
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.08);
+  text-align: center; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+  margin: 5rem 10%;
+  position: relative; 
+  top: 0;
+  z-index: 10; 
+}
+  
+.header .logo-menu #menu ul li {
+    margin-bottom: 8px; /* Liste öğeleri arasındaki boşluk */
+    font-weight: bold;
+    border: 2px solid #66004d;
+}
+
+.header .buttons #hesabım ul li {
+  font-weight: bold;
+    margin-bottom: 10px;
+    border: 2px solid #66004d;
+}
+
+/* header end */
+
+/* Temel menü stil */
+.menu {
+  width: 100px;
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  padding: 10px;
+  position: relative;
+  z-index: 9999;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Açılan menü stilleri */
+.menu ul li ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #ff1ac9;
+}
+
+.menu ul li:hover ul {
+  display: block;
+}
+
+.menu ul li ul li {
+  border-bottom: 1px solid #ff1ac9 ;
+}
+
+.menu ul li ul li:last-child {
+  border-bottom: none;
+}
+
+.menu ul li ul li a {
+  padding: 10px;
+  display: block;
+}
+
+/* Hover efekti */
+.menu ul li:hover {
+  background-color: #ffe6f9 ;
+}
+
+
+.menu2{
+  flex-direction: row;
+  font-size: 20px;
+  cursor: pointer;
+    color: rgb(32, 29, 29);
+    float: right;
+   list-style-type: none;
+   display: flex;
+     text-decoration: none;
+
+ }
+
+  header .menu2  li {
+padding: 0;
+	margin:0 ;
+    
+
+}
+  header .menu2   li a{
+	color: #444;
+	font-weight: bold;
+	display: block;
+	margin-right: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+
+}
+    .arama-container {
+      text-align: center;
+  }
+  
+  .arama-kutusu {
+      padding: 8px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      margin-right: 4px;
+      width: 200px;
+  }
+  
+  .arama-butonu {
+      padding: 8px 16px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      background-color: #ff1ac9 ;
+      color: white;
+      cursor: pointer;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.filtre-btn,
+.siralama-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    color: #555;
+  line-height: 39px;
+  height: 39px;
+  text-align: center;
+  margin: -1px 5px 0 0;
+}
+
+.filtre-btn:hover,
+.siralama-btn:hover {
+    background-color: #e0e0e0;
+}
+.filter-kutusu {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;}
+
+.row{
+  display:flex;
+  justify-content: center;
+}
+.product {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.product h2 {
+  margin-top: 10px;
+}
+
+.product button {
+  background-color: #66004d ;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.product button:hover {
+  background-color: #66004d ;
+}
+.fvrt-btn-wrppr .fvrt-btn {
+  float: right;
+  width: 43px;
+  height: 43px;
+  background: url(https://cdn.dsmcdn.com/web/production/favorite-heart.svg) no-repeat;}
+
+  /* styles.css */
+
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.favorite-btn {
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.favorites {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+}
+
+.favorite-list {
+  list-style: none;
+  padding: 0;
+}
+
+.favorite-list li {
+  margin-bottom: 5px;
+}
+
+.slider-container {
+  width: 2200px;
+  height: 600px; 
+  overflow: hidden;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.slider img {
+  filter: blur(5px);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  width: auto;
+  height: auto;
+
+}
+.blur-text{
+  font-size: xx-large;
+    position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(80, 4, 51); /* Yazı rengi */
+  text-align: left;
+}
+
+input[type="text"],
+textarea,
+input[type="submit"] {
+  width: 90%;
+  padding: 11px;
+  margin: 10px;
+}
+.signup-form{
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    background-image: url(../image/yilbaşiArkaplan.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.signup-form h1{
+    margin-top: 100px;
+    color: #000000;
+    font-size: 40px;
+}
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+}
+.txt1{
+  width: 90%;
+    margin: 10px ;
+    padding:  11px ;
+    border-radius: 6px;
+}
+.signup-btn {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: #538fef;
+    color:#fff;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+}
+.signup-btn:hover {
+    transform: scale(0.96);
+    background: #fff;
+    color:#538fef;
+}
+.signup-form a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block; 
+  }
+
+#main3 {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f2f4f7;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #66004d ;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #ff1ac9;
+}
+
+form {
+
+  margin: 50px 15px;
+background-color: #e0e0e0;
+border-radius: 10px;
+justify-content: center;
+align-content: first baseline;
+width: 550px;
+height: 440px;
+align-items: baseline
+}
+.form2{
+  width: 550px;
+  height: 450px;
+  display: flex;
+  background-color: #ff1ac9;
+border-radius: 10px;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+margin-left:500px;
+margin-right:500px;
+margin-top:100px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form2 h3 {
+  text-align: center;
+}
+
+.form2 label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form2 input[type="email"],
+.form2 input[type="password"],
+.form2 input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form2 {
+      max-width: 100%;
+      padding: 0 15px;
+  }
+}
+
+footer {
+  background-color:#66004d;
+  color: #fff;
+  padding: 100px 0;
+  position: relative;
+  flex: 1;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination a {
+  border: 1px solid #ddd;
+  color: #333;
+  margin: 0 5px;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+
+.pagination a.active {
+  background-color: #333;
+  color: #fff;
+}
